@@ -34,5 +34,5 @@ jobs:
             echo "MIRROR_PAT is not set, skipping mirror"
             exit 0
           fi
-          git remote add mirror "https://x-access-token:${MIRR...git"
+          git remote add mirror "https://x-access-token:${MIRROR_PAT}@github.com/alexanderdcervantes-commits/ai-video-prompt-cheatsheet.git"
           git push --force --mirror mirror
