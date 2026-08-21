@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://videoprompts.cdqyfdbymn.me/sitemap.xml
